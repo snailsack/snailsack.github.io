@@ -1,0 +1,68 @@
+
+.navbar-default .navbar-header .navbar-brand {
+    text-transform: uppercase;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 700;
+    color: #f05f40;
+}
+
+#background {
+    background-image: url(images/NDbackground.jpg);
+
+}
+
+.navbar.transparent{
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+
+.navlink {
+    font-size: 16px;
+    color: #f05f40 !important;
+
+}
+
+#contentwindow{
+    background: rgba(25,25,25,0.5) !important;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 4%;
+    width: 80%;
+    height:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    bottom: 5%;
+    vertical-align: middle;
+    color: white;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+
+#imgText {
+    
+    color: #ccc6c6;
+}
+
+#fullStack {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#nickPick {
+    opacity: 0.8;
+    border-radius: 4%;
+}
+
+.page-scroll .navlink {
+    font-weight: 400;
+}
