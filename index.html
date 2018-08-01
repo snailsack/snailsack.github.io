@@ -15,11 +15,11 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-  
+
 </head>
 
 <body background="images/NDbackground.jpg">
-  
+
   <nav id="mainNav" class="navbar transparent navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -34,32 +34,33 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a class="page-scroll navlink" href="#about" id="aboutMe" onclick="document.getElementById('contentDisplay').innerHTML = 'Hello, why is this not working!!!!'">About Me</a>
+            <a class="page-scroll navlink" href="#about" id="aboutMe" onclick="document.getElementById('contentDisplay').innerHTML = 'Hello World! I am studying to be a full stack web developer at Burlington Code Academy. The more I learn, the more interesting it becomes. I hope to use my newfound knowledge to change the world for the better. When I am not working, I enjoy cavorting with friends, rock climbing, singing, drinking craft beer, and learning all I can to improve my trivia skills.'">About Me</a>
           </li>
           <li>
-            <a class="page-scroll navlink" href="#services" id="education">Education</a>
+            <a class="page-scroll navlink" href="#services" id="education" onclick="document.getElementById('contentDisplay').innerHTML = 'I received a degree in History from the University of North Dakota in 2011. I also studied Economics and German. Since moving to Vermont in 2013, I have worked as a window cleaner and an organic farmer. I am currently a student and the Burlington Code Academy, where I have become familiar with  HTML5, CSS, Bootstrap, JavaScript, Node.js, jQuery, NoSQL and many other technologies.'">Education</a>
           </li>
           <li>
-            <a class="page-scroll navlink" href="#portfolio" id="projects">Projects</a>
+            <a class="page-scroll navlink" href="#portfolio" id="projects" onclick="document.getElementById('contentDisplay').innerHTML = 'Check out my GitHub page for things I am working on.'">Projects</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
   <div class="container-fluid" id="contentwindow">
-    <div class="col-sm-6 text-center" id=leftbox>
-      <div class="text-center" id="imgText">
-        <h1>Nick Railsback</h1>
-        <h3 id="fullStack">Full Stack Developer</h3>
+    <div class="row">
+      <div class="col-sm-6 text-center" id=leftbox>
+        <div class="text-center" id="imgText">
+          <h1>Nick Railsback</h1>
+          <h3 id="fullStack">Full Stack Developer</h3>
+        </div>
+        <img src="images/yadrangle.png" alt="A full stack developer in need of new head shots." id="nickPick">
       </div>
-      <img src="images/yadrangle.png" alt="A full stack developer in need of new head shots." id="nickPick">
-    </div>
-    <div class="col-sm-12 text-center" id="rightbox">
-      <div class="text-center" id="contentDisplay">
+      <div class="col-sm-6 text-center" id="rightbox">
+        <div class="text-center" id="contentDisplay">
+
+        </div>
 
       </div>
-
-
     </div>
 
   </div>
