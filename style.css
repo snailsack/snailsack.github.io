@@ -22,7 +22,7 @@
 }
 
 .navlink {
-    font-size: 16px;
+    font-size: 18px;
     color: #f05f40 !important;
 
 }
@@ -32,7 +32,7 @@
     margin: auto;
     box-sizing: border-box;
     border-radius: 4%;
-    width: 80%;
+    width: 90%;
     height:90%;
     display: flex;
     flex-direction: column;
@@ -61,8 +61,17 @@
 #nickPick {
     opacity: 0.8;
     border-radius: 4%;
+    
 }
 
 .page-scroll .navlink {
-    font-weight: 400;
+    font-weight: 500;
+}
+#homeRef {
+    margin-left: 10px;
+}
+#contentDisplay {
+    text-align: center;
+    color: #ccc6c6;
+    font-size: 16px;
 }

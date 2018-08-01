@@ -2,21 +2,24 @@
 <html>
 
 <head>
+  <title>Nick Railsback</title>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Page Title</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Nick Railsback</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="main.js"></script>
+  <script src="styles.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  
 </head>
 
 <body background="images/NDbackground.jpg">
+  
   <nav id="mainNav" class="navbar transparent navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -26,18 +29,18 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand page-scroll" href="index.html">Nick Railsback</a>
+        <a class="navbar-brand page-scroll" href="index.html" id="homeRef">Nick Railsback</a>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a class="page-scroll navlink" href="#about">About Me</a>
+            <a class="page-scroll navlink" href="#about" id="aboutMe" onclick="document.getElementById('contentDisplay').innerHTML = 'Hello, why is this not working!!!!'">About Me</a>
           </li>
           <li>
-            <a class="page-scroll navlink" href="#services">Education</a>
+            <a class="page-scroll navlink" href="#services" id="education">Education</a>
           </li>
           <li>
-            <a class="page-scroll navlink" href="#portfolio">Projects</a>
+            <a class="page-scroll navlink" href="#portfolio" id="projects">Projects</a>
           </li>
         </ul>
       </div>
@@ -51,7 +54,11 @@
       </div>
       <img src="images/yadrangle.png" alt="A full stack developer in need of new head shots." id="nickPick">
     </div>
-    <div class="cols-sm-6" id="rightbox">
+    <div class="col-sm-12 text-center" id="rightbox">
+      <div class="text-center" id="contentDisplay">
+
+      </div>
+
 
     </div>
 
