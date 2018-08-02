@@ -47,7 +47,6 @@
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
-
 #imgText {
     
     color: #ccc6c6;
@@ -62,15 +61,17 @@
 #nickPick {
     opacity: 0.8;
     border-radius: 4%;
-    
+    padding-bottom: 20px;
 }
 
 .page-scroll .navlink {
     font-weight: 500;
 }
+
 #homeRef {
     margin-left: 10px;
 }
+
 #contentDisplay {
     text-align: left;
     color: #ccc6c6;
@@ -79,3 +80,9 @@
     margin-right: 30px;
 }
 
+#linkDiv a{
+    color: #ccc6c6 !important;
+    font-size: 19px;
+    padding: 30px;
+    
+}
