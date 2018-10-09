@@ -31,7 +31,7 @@
     background: rgba(25,25,25,0.5) !important;
     margin: auto;
     box-sizing: border-box;
-    border-radius: 4%;
+    border-radius: 5%;
     width: 90%;
     height:90%;
     display: flex;
@@ -61,7 +61,7 @@
 #nickPick {
     opacity: 0.8;
     border-radius: 4%;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 .page-scroll .navlink {
@@ -82,7 +82,11 @@
 
 #linkDiv a{
     color: #ccc6c6 !important;
-    font-size: 19px;
+    font-size: 30px;
     padding: 30px;
     
+}
+
+#linkDiv {
+    padding-top: 20px;
 }

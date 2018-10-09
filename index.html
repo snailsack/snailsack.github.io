@@ -2,18 +2,16 @@
 <html>
 
 <head>
-  <title>Nick Railsback</title>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Page Title</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Nick Railsback</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="styles.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 
 </head>
@@ -37,13 +35,13 @@
             <a class="page-scroll navlink" href="#about" id="aboutMe" onclick="document.getElementById('contentDisplay').innerHTML = `<p>Hello World! I'm a junior full stack developer here in beautiful Burlington, VT. The more I learn, the more interesting it becomes. I hope to use my newfound knowledge to change the world for the better. When I am not working, I enjoy cavorting with friends, rock climbing, singing, drinking craft beer, and learning all I can to improve my trivia skills.</p>`">About Me</a>
           </li>
           <li>
-            <a class="page-scroll navlink" href="#services" id="education" onclick="document.getElementById('contentDisplay').innerHTML = `<p>I received a degree in History from the University of North Dakota in 2011. I also studied Economics and German. Since moving to Vermont in 2013, I have worked as a window cleaner and an organic farmer. I am a recent graduate of the Burlington Code Academy and have been hired there as a teaching assistant for the current cohort. I am become familiar with  HTML5, CSS, Bootstrap, JavaScript, Node.js, jQuery, NoSQL and many other technologies.</p>`">Education</a>
+            <a class="page-scroll navlink" href="#education" id="education" onclick="document.getElementById('contentDisplay').innerHTML = `<p>I received a degree in History from the University of North Dakota in 2011. I also studied Economics and German. Since moving to Vermont in 2013, I have worked as a window cleaner and an organic farmer. I am a recent graduate of the Burlington Code Academy and have been hired there as a teaching assistant for the current cohort. I am become familiar with  HTML5, CSS, Bootstrap, JavaScript, Node.js, jQuery, NoSQL and many other technologies.</p>`">Education</a>
           </li>
           <li>
-            <a class="page-scroll navlink" href="#portfolio" id="projects" onclick="document.getElementById('contentDisplay').innerHTML = `<p>Check out my GitHub page for things I'm working on or reach out to me on LinkedIn.</p>`">Projects</a>
+            <a class="page-scroll navlink" href="#projects" id="projects" onclick="document.getElementById('contentDisplay').innerHTML = `<p>Check out my GitHub page for things I'm working on or reach out to me on LinkedIn.</p>`">Projects</a>
           </li>
           <li> 
-          <a class="page-scroll navlink" href="#services" id="blog" onclick="document.getElementById('contentDisplay').innerHTML = `<p>Brog</p>`">Blog</a>
+          <a class="page-scroll navlink" href="#services" id="blog" >Blog</a>
           </li>
         </ul>
       </div>
@@ -58,8 +56,8 @@
         </div>
         <img src="images/yadrangle.png" alt="A full stack developer in need of new head shots." id="nickPick">
         <div id="linkDiv">
-          <a href="https://www.linkedin.com/in/nick-railsback/">LinkedIn</a>
-          <a href="https://github.com/snailsack">GitHub</a>
+          <a href="https://www.linkedin.com/in/nick-railsback/" target="_blank"><i alt="LinkedIn link" class="fab fa-linkedin-in" ></i></a>
+          <a href="https://github.com/snailsack" target="_blank"><i alt="Github link" class="fab fa-github"></i></a>
         </div>
       </div>
       <div class="col-sm-6 text-center" id="rightbox">
@@ -82,7 +80,7 @@
 
 
 
-
+  <script src="main.js"></script>
 </body>
 
 </html>
