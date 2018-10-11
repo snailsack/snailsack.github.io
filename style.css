@@ -1,92 +1,110 @@
+h1 {
+  color: #ccc6c6;
+}
+
+h3 {
+  color: #ccc6c6;
+}
+
+p {
+  color: #ccc6c6;
+}
 
 .navbar-default .navbar-header .navbar-brand {
-    text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    font-weight: 700;
-    color: #f05f40;
+  text-transform: uppercase;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  font-weight: 700;
+  color: #f05f40;
 }
 
 #background {
-    background-image: url(images/NDbackground.jpg);
+  background-image: url(images/NDbackground.jpg);
 
 }
 
 .navbar.transparent{
-    border-width: 0px;
-    -webkit-box-shadow: 0px 0px;
-    box-shadow: 0px 0px;
-    background-color: rgba(0,0,0,0.0);
-    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
-    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
-    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+  border-width: 0px;
+  -webkit-box-shadow: 0px 0px;
+  box-shadow: 0px 0px;
+  background-color: rgba(0,0,0,0.0);
+  background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+  background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+  background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
 }
 
 .navlink {
-    font-size: 18px;
-    color: #f05f40 !important;
+  font-size: 18px;
+  color: #f05f40 !important;
 
 }
 
 #contentwindow{
-    background: rgba(25,25,25,0.5) !important;
-    margin: auto;
-    box-sizing: border-box;
-    border-radius: 5%;
-    width: 90%;
-    height:90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    position: absolute;
-    top: 10%;
-    left: 0;
-    right: 0;
-    bottom: 5%;
-    vertical-align: middle;
-    color: white;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  background: rgba(25,25,25,0.5) !important;
+  margin: auto;
+  box-sizing: border-box;
+  border-radius: 5%;
+  width: 90%;
+  height:90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  bottom: 5%;
+  vertical-align: middle;
+  color: white;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 #imgText {
-    
-    color: #ccc6c6;
+  color: #ccc6c6;
 }
 
 #fullStack {
-    padding-top: 0;
-    margin-top: 0;
-    padding-bottom: 10px;
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 10px;
 }
 
 #nickPick {
-    opacity: 0.8;
-    border-radius: 4%;
-    padding-bottom: 0px;
+  opacity: 0.8;
+  border-radius: 4%;
+  padding-bottom: 0px;
 }
 
 .page-scroll .navlink {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 #homeRef {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 #contentDisplay {
-    text-align: left;
-    color: #ccc6c6;
-    font-size: 19px;
-    margin-top: 50px;
-    margin-right: 30px;
+  text-align: left;
+  color: #ccc6c6;
+  font-size: 19px;
+  margin-top: 50px;
+  margin-right: 30px;
 }
 
 #linkDiv a{
-    color: #ccc6c6 !important;
-    font-size: 30px;
-    padding: 30px;
+  color: #ccc6c6 !important;
+  font-size: 30px;
+  padding: 30px;
     
 }
 
 #linkDiv {
-    padding-top: 20px;
+  padding-top: 20px;
+}
+
+#top-links {
+  color: #f05f40 !important;
+  font-size: 30px;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #f05f40 !important;
 }
